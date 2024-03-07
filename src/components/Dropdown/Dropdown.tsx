@@ -28,7 +28,7 @@ const Dropdown = ({
       <form>
         <select
           data-testid="image-select"
-          className="w-3/4 border-2 border-solid rounded-md border-gray-300"
+          className="image-select w-3/4 border-2 border-solid rounded-md border-gray-300"
           onChange={handleChange}
         >
           <option value="" hidden>

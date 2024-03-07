@@ -21,7 +21,7 @@ const Thumbnail = ({
   }
 
   return (
-    <div className="thumbnail bg-white px-3 py-3 absolute top-3/4 left-1/2 -translate-x-1/2 -translate-y-3/4 rounded-lg flex flex-row justify-start z-1000">
+    <div className="image-thumbnail bg-white px-3 py-3 absolute top-3/4 left-1/2 -translate-x-1/2 -translate-y-3/4 rounded-lg flex flex-row justify-start z-1000">
       {dataIsNotEmpty &&
         data.map((img, index) => {
           return (

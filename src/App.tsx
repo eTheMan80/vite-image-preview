@@ -55,7 +55,7 @@ export default function App() {
   if (hasError) {
     return (
       <div
-        data-testid="error"
+        data-testid="data-error"
         className="w-screen h-screen flex flex-col justify-center items-center text-center text-3xl"
       >
         <span>
@@ -66,7 +66,7 @@ export default function App() {
     )
   }
   return (
-    <div className="App pt-5 pb-5">
+    <div id="app" className="App pt-5 pb-5">
       <div className="wrapper flex flex-row justify-center columns-2 overflow-hidden h-screen">
         <Dropdown data={sceneImageToDisplay} setImg={setImg} />
         <SceneImage
